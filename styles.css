@@ -135,11 +135,6 @@ h3 {
     align-items: center;
 }
 
-iframe {
-    width:70%;
-    height: 5dbfnmpg[,,0vh;
-}
-
 .personas {
 display:flex;
 }
@@ -154,7 +149,7 @@ padding: 4% 0;
 color: rgb(85, 87, 85);
 }
 
-@media only screen and (min-width: 200px) and (max-width: 600px){
+@media only screen and (min-width: 100px) and (max-width: 900px){
  
     .container {
         width: 80%;
@@ -197,5 +192,22 @@ color: rgb(85, 87, 85);
     .intro-image {
         margin: 15% 0 15% 0;
         width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+    }
+
+    h3 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     }
